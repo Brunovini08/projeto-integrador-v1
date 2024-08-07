@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="report.component.css"/>
+
+<main>
+    <h1>Denúncia de Criadouros de Dengue</h1>
+    <form>
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+
+      <label for="cep">CEP:</label>
+      <input type="text" id="cep" name="cep" required>
+
+      <label for="descricao">Descrição do Problema:</label>
+      <textarea id="descricao" name="descricao" rows="4" required></textarea>
+
+      <label for="tipoProblema">Tipo do Problema:</label>
+      <select id="tipoProblema" name="tipoProblema" required>
+        <option value="aguaParada">Água Parada</option>
+        <option value="lixo">Lixo Acumulado</option>
+        <option value="entulho">Entulho</option>
+        <option value="dengue">Caso de Dengue</option>
+        <option value="outro">Outro</option>
+      </select>
+
+      <label for="imagens">Adicionar Imagens:</label>
+      <input type="file" id="imagens" name="imagens" accept="image/*" multiple>
+
+      <button type="submit">Enviar Denúncia</button>
+    </form>
+  </main>
+
