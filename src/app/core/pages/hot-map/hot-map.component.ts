@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
-
+import { NavbarComponent } from '../../../shared/components/navbar/navbar.component';
+import { LoginComponent } from "../login/login.component";
 @Component({
   selector: 'app-hot-map',
   standalone: true,
-  imports: [],
+  imports: [NavbarComponent, LoginComponent],
   templateUrl: './hot-map.component.html',
   styleUrl: './hot-map.component.css'
 })
