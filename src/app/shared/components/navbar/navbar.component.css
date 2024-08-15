@@ -11,6 +11,7 @@ header {
   width: 50.33%;
   display: flex;
   align-items: center;
+  
 }
 
 .main {
@@ -75,7 +76,6 @@ header .navegation li a {
   border-radius: 10px;
 }
 
-/* Estilos atualizados para o botão de login */
 
 .login_botao {
   width: 80px;
@@ -84,8 +84,8 @@ header .navegation li a {
   justify-content: center;
   align-items: center;
   border: none;
-  border-radius: 20px; /* Arredonda as bordas do botão */
-  background-color: #ce5959; /* Cor de fundo do botão */
+  border-radius: 20px;
+  background-color: #941f29; 
   transition: background-color 0.2s ease-in-out;
   cursor: pointer;
 }
@@ -103,6 +103,13 @@ header .navegation li a {
 }
 
 .login_botao:hover {
-  background-color: #ff6f6f; /* Cor ao passar o mouse sobre o botão */
+  background-color: #af5050; 
   color: white;
+}
+
+
+.main_menu:hover {
+  background-color: #af5050; 
+  color: white;
+  
 }

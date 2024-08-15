@@ -1,0 +1,32 @@
+
+.campaigns-container {
+    display: flex;
+    gap: 20px; /* Espaço entre as campanhas */
+}
+
+.campaign {
+    width: 300px; /* Ajuste conforme necessário */
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7eb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    background-color: #d3dbcf;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
