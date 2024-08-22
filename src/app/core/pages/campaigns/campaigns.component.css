@@ -1,32 +1,43 @@
 
-.campaigns-container {
-    display: flex;
-    gap: 20px; /* Espaço entre as campanhas */
-}
-
-.campaign {
-    width: 300px; /* Ajuste conforme necessário */
+  
+  .container {
     display: flex;
     flex-direction: column;
-    background-color: #f7f7eb;
-    border-radius: 8px;
+    gap: 20px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    background-color: #d3d3d3;
+    border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    background-color: #d3dbcf;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image {
+    background-color: white;
+    padding: 60px;
+    border-radius: 15px 0 0 15px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+  
+  }
+  
+  .text {
+    flex: 1;
     padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
     text-align: center;
-}
-
-.logo img {
-    max-width: 100%;
-    height: auto;
-}
-
-.description {
-    padding: 20px;
-    text-align: center;
-    flex-grow: 1;
-}
+  }
+  

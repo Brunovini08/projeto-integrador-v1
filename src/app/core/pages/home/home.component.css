@@ -1,0 +1,28 @@
+.card h-100{
+  margin: 0 10px 10px 10px; /* Espaço nas laterais e embaixo */
+}
+
+ .card h-100{
+  padding: 15px; /* Ajusta o padding dentro do corpo do card */
+}
+
+.card h-100 {
+  width: 100%; /* Ajusta a imagem para ocupar 100% da largura do card */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 5px; /* Cantos arredondados na imagem (opcional) */
+}
+.btn btn-primary{
+    padding: 8px 16px; /* Ajusta o tamanho do botão (menor) */
+    font-size: 14px; /* Reduz o tamanho da fonte */
+    border-radius: 20px; /* Deixa o botão arredondado */
+    border: none; /* Remove a borda padrão */
+    background-color: #007bff; /* Cor de fundo (você pode alterar conforme necessário) */
+    color: white; /* Cor do texto */
+    cursor: pointer; /* Adiciona um cursor pointer ao passar o mouse */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+

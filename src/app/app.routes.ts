@@ -10,6 +10,8 @@ import { CampaignsComponent } from './core/pages/campaigns/campaigns.component';
 import { NavbarAdmComponent } from './core/Adm/navbar-adm/navbar-adm.component';
 import { ForgetPasswordComponent } from './core/pages/forget-password/forget-password.component';
 
+
+
 export const routes: Routes = [
     {
         path: 'login',
@@ -45,10 +47,10 @@ export const routes: Routes = [
     },
     {
         path: 'navbar-adm',
-        component: NavbarAdmComponent
+        component: NavbarAdmComponent, 
     },
     {
         path: 'forget-password',
         component: ForgetPasswordComponent
-    }
+    },
 ];
