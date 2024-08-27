@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { RouterLink, RouterLinkActive } from '@angular/router'
+
+
 @Component({
   selector: 'app-login',
   standalone: true,
@@ -8,5 +10,5 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   styleUrl: './login.component.css'
 })
 export class LoginComponent {
-
-}
+    
+  }
