@@ -1,14 +1,26 @@
-<app-navbar></app-navbar>
-  
-    <title>Mapa de Calor - Casos de Dengue</title>
+<app-navbar></app-navbar>   
     <link rel="stylesheet" href="hot-map.component.css">
-
-    <div class="container">
-        <div class="titulo">MAPA DE CALOR</div>
-        <div class="subtitulo">&lt; Casos de Dengue &gt;</div>
-        <div class="mapa"></div>
-        <div class="legenda">LEGENDAS E FILTROS</div>
-    </div>
+    <script src="index.js"></script>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mapa de Calor</title>
+       
+    </head>
+    <body>
+       
+        <div id="heatmap-container"></div>
+        
+      
+        <script src="https://cdn.jsdelivr.net/npm/heatmap.js@2.0.5/heatmap.min.js"></script>
+      
+        <script src="heatmap.js"></script>
+    </body>
+    </html>
+    
+ 
 
 
 <app-footer></app-footer>
