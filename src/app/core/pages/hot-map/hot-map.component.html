@@ -1,14 +1,11 @@
 <app-navbar></app-navbar>   
     <link rel="stylesheet" href="hot-map.component.css">
     <main>
-        <h1>Infromações sobre a Dengue em tq</h1>
+        <h1>Informações sobre a Dengue em tq</h1>
         <form>
-          <label for="endereco">Endereço:</label>
-          <input type="text" id="endereco" name="endereco" required>
-    
           <label for="endereco">CEP:</label>
-          <input type="text" id="endereco" name="endereco" required>
-    
+          <input type="text" id="endereco" name="CEP">
+          <a routerLink="/register" routerLinkActive="true">Procurar meu cep</a>
           <button type="submit">Buscar</button>
         </form>
       </main>
