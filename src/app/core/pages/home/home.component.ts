@@ -4,11 +4,13 @@ import { CarouselComponent } from "../../../shared/components/carousel/carousel.
 import { FooterComponent } from "../../../shared/components/footer/footer.component";
 import { RouterOutlet } from '@angular/router';
 import { ReportComponent } from '../report/report.component';
+import { RouterLinkActive, RouterLink } from '@angular/router';
+
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, CarouselComponent, FooterComponent, RouterOutlet, ReportComponent, CarouselComponent],
+  imports: [NavbarComponent, CarouselComponent, FooterComponent, RouterOutlet, ReportComponent, CarouselComponent, RouterLink, RouterLinkActive],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

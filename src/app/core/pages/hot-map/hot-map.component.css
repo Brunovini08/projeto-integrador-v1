@@ -12,6 +12,7 @@
   .content {
     flex: 1;
     padding: 20px;
+    margin-top: 20px; /* Adiciona 20px de espaço acima do texto */
   }
   
   .footer {
@@ -23,7 +24,10 @@
     padding: 10px 0;
     width: 100%;
   }
-  
+  .cep{
+    
+      margin-top: 50px; 
+  }
   .footer a {
     color: #f4f4f4;
     text-decoration: none;
