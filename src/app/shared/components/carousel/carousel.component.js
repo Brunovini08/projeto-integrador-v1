@@ -1,29 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-  let currentSlide = 1;
-  const totalSlides = 3;
-  const intervalTime = 2000; // 2 segundos
+let count = 1;
+document.getElementById("radio1").checked = true;
 
-  // Função para trocar de slide
-  function changeSlide() {
-      // Desmarcar o slide atual
-      const currentSlideElement = document.getElementById(`slide${currentSlide}`);
-      if (currentSlideElement) {
-          currentSlideElement.checked = false;
-      }
+setInterval(function(){
+  nextImage();
+}, 2000)
 
-      // Incrementa o slide atual
-      currentSlide++;
-      if (currentSlide > totalSlides) {
-          currentSlide = 1; // Volta para o primeiro slide
-      }
+function nextImage(){
+    count++;
+    if(count>3){
+        count = 1;
+    }
 
-      // Marcar o novo slide
-      const nextSlideElement = document.getElementById(`slide${currentSlide}`);
-      if (nextSlideElement) {
-          nextSlideElement.checked = true;
-      }
-  }
+ document.getElementById("radio"+count).checked = true;
 
-  // Inicia o intervalo para mudar de slide
-  setInterval(changeSlide, intervalTime);
-});
+}

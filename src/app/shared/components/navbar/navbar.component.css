@@ -2,7 +2,9 @@ header {
   background-color: #941f29;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 1%;
+  width: 97,5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main_menu {
@@ -16,7 +18,7 @@ header {
   width: 33.33%;
   display: flex;
   justify-content: start;
-  padding: 15px;
+  padding: 1%;
   align-items: center;
 }
 
