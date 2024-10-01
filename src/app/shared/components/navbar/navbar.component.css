@@ -8,7 +8,7 @@ header {
 }
 
 .main_menu {
-  width: 50.33%;
+  width: 100%;
   display: flex;
   align-items: center;
   
@@ -26,24 +26,24 @@ header {
   width: 33.33%;
   display: flex;
   justify-content: end;
-  padding: 10px;
+  padding: 0.5%;
   align-items: center;
 }
 
 .logo {
-  width: 70px;
+  width: 150%;
   height: auto;
   display: block;
-  margin-left: 10px;
-  border-radius: 25px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 10%;
+  border-radius: 25%;
+  box-shadow: 0 2% 4% rgba(0, 0, 0, 0);
 }
 
 header .navegation {
   flex: 1;
   display: flex;
   justify-content: center;
-  width: 750px;
+  width: 100%;
 }
 
 header .navegation ul {
@@ -62,18 +62,18 @@ header .navegation li a {
   display: inline-block;
   text-decoration: none;
   font-weight: 200;
-  font-size: 19px;
-  margin-left: 25px;
+  font-size: 150%;
+  margin-left: 20px;
 }
 
 .botao_logo {
-  width: 60px;
-  height: 35px;
+  width: 17%;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 0;
-  border-radius: 10px;
+  border-radius: 25%;
 }
 
 
