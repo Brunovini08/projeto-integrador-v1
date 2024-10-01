@@ -1,23 +1,13 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.content {
-    flex: 1;
-}
-
 .footer {
     background-color: #941f29;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 97,7%;
     bottom: 0;
+    position: static;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .footer-content {

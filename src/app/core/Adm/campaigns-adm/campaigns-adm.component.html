@@ -1,21 +1,12 @@
-<link rel="stylesheet" href="campaigns-adm.component.css">
 <main>
-    <h1>Informações dengue</h1>
-    <form>
+  <h1> Adicionar Campanha</h1>
+  <form>
+    <label for="imagens">Adicionar Imagens:</label>
+    <input type="file" id="imagens" name="imagens" accept="image/*" multiple>
 
-      <label for="endereco">CEP</label>
-      <input type="text" id="endereco" name="endereco" required>
+    <label for="descricao">Descrição da Campanha:</label>
+    <textarea id="descricao" name="descricao" rows="4" required></textarea>
 
-      <label for="tipoProblema"> Gravidade do Problema</label>
-      <select id="tipoProblema" name="tipoProblema" required>
-        <option value="aguaParada">Alto</option>
-        <option value="lixo">Medio</option>
-        <option value="entulho">baixo</option>
-      </select>
-
-      <label for="descricao">Descrição do Problema:</label>
-      <textarea id="descricao" name="descricao" rows="4" required></textarea>
-
-      <button type="submit">Enviar Atualizações</button>
-    </form>
-  </main>
+    <button type="submit">Publicar Campanha</button>
+  </form>
+</main>
