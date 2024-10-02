@@ -1,27 +1,28 @@
-<link rel="stylesheet" href="navbar.component.css"/>
- <header>
-    <div class="main">
-      <div class="logo">
-        <button class="botao_logo">
-          <img class="logo" src="assets/imgs/logo.jpg">
-        </button>
-      </div>
+<header>
+  <div class="main">
+    <div class="logo">
+      <button class="botao_logo">
+        <img class="logo" src="assets/imgs/logo.jpg">
+      </button>
     </div>
-    <header>
-      <div class="">
-      <nav class="navegation">
-          <ul>
-              <li><a routerLink="/" routerLinkActive="true">Home</a></li>
-              <li><a routerLink="/campaigns" routerLinkActive="true">Campanhas</a></li>
-              <li><a routerLink="/map" routerLinkActive="true">Casos</a></li>
-              <li><a routerLink="/complaints" routerLinkActive="true">Denuncias</a>
-              <li> <a routerLink="/about" routerLinkActive="true">Sobre</a></li>
-          </ul>
-      </nav>
-    </div>
-  </header>
-  <div class="main_login">
-    <button class="login_botao">
-        <a routerLink="/login" routerLinkActive="active">LOGIN</a>
-    </button>
-</div>
+  </div>
+    <div class="">
+    <nav class="navegation" >
+        <ul [ngClass]="{'show': isMenuOpen}" class="dropdown-content">
+            <li><a routerLink="/" routerLinkActive="true">Home</a></li>
+            <li><a routerLink="/campaigns" routerLinkActive="true">Campanhas</a></li>
+            <li><a routerLink="/map" routerLinkActive="true">Casos</a></li>
+            <li><a routerLink="/complaints" routerLinkActive="true">Denuncias</a>
+            <li> <a routerLink="/about" routerLinkActive="true">Sobre</a></li>
+            <div class="main_login">
+                  <li>
+                    <a routerLink="/login" routerLinkActive="active">Login</a>
+                  </li>
+            </div>
+        </ul>
+    </nav>
+  </div>
+</header>
+
+
+<div class="menu-icon" (click)="toggleMenu()">&#9776;</div>
