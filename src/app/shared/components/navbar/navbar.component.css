@@ -1,5 +1,97 @@
+<<<<<<< HEAD
 .menu-icon {
   font-size: 30px;
+=======
+header {
+  background-color: #941f29;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+  width: 97,5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main_menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+}
+
+.main {
+  width: 33.33%;
+  display: flex;
+  justify-content: start;
+  padding: 1%;
+  align-items: center;
+}
+
+.main_login {
+  width: 33.33%;
+  display: flex;
+  justify-content: end;
+  padding: 0.5%;
+  align-items: center;
+}
+
+.logo {
+  width: 150%;
+  height: auto;
+  display: block;
+  margin-left: 10%;
+  border-radius: 25%;
+  box-shadow: 0 2% 4% rgba(0, 0, 0, 0);
+}
+
+header .navegation {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+header .navegation ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header .navegation li {
+  list-style: none;
+}
+
+header .navegation li a {
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 150%;
+  margin-left: 20px;
+}
+
+.botao_logo {
+  width: 17%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  border-radius: 25%;
+}
+
+
+.login_botao {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  background-color: #941f29; 
+  transition: background-color 0.2s ease-in-out;
+>>>>>>> ee1fb0296069e31478da93c47b5c99d4c56095b8
   cursor: pointer;
   display: none; /* Escondido em telas maiores */
 }
